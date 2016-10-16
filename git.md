@@ -6,3 +6,4 @@
 | git commit -a                       | 変更されたファイルを自動add＆コミット      |
 | git reset --hard origin/master      | ローカルブランチをリモートブランチで上書き |
 | git push --delete origin ブランチ名 | リモートブランチを削除する                 |
+| git log -p ファイルパス             | 特定のファイルの変更履歴を見る             |
