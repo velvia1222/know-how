@@ -6,6 +6,7 @@
 | F 文字 | 文字を逆方向に検索     |
 | ;      | 次の文字を検索         |
 | ,      | 次の文字を逆方向に検索 |
+
 ## 変換
 | key | action             |
 |:----|:-------------------|
@@ -17,6 +18,18 @@
 |:--------|:-----------------------------|
 | C-l     | キャッシュをクリアする       |
 | C-r,C-w | カーソル位置の単語を入力する |
+
+## fugitive
+| key                     | action                |
+|:------------------------|:----------------------|
+| :Gstatus                | git status            |
+| :Gwrite                 | git add               |
+| :Gcommit                | git commit            |
+| :Git push origin master | git push 〜           |
+| :Gread                  | git checkout filename |
+| :Gdiff                  | git diff              |
+| :Gblame                 | git blame             |
+| :Glog                   | git log               |
 
 ## tcomment_vim
 | key | action                   |
@@ -32,4 +45,3 @@
 | key | action                               |
 |:----|:-------------------------------------|
 | K   | カーソル下の単語のドキュメントを開く |
-
