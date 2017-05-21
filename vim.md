@@ -25,6 +25,14 @@
 | :cn    | 次のファイルに移動する   |
 | :cN    | 前のファイルに移動する   |
 
+## vimdiff
+| key | action                            |
+|:----|:----------------------------------|
+| ]c  | 次の差分に移動                    |
+| [c  | 前の差分に移動                    |
+| dp  | 左の差分を右にマージ(diff put)    |
+| do  | 右の差分を左にマージ(diff obtain) |
+
 # マッピング
 | key            | action                                               |
 |:---------------|:-----------------------------------------------------|
@@ -43,16 +51,25 @@
 | C-r,C-w | カーソル位置の単語を入力する |
 
 ## fugitive
-| key                     | action                |
-|:------------------------|:----------------------|
-| :Gstatus                | git status            |
-| :Gwrite                 | git add               |
-| :Gcommit                | git commit            |
-| :Git push origin master | git push 〜           |
-| :Gread                  | git checkout filename |
-| :Gdiff                  | git diff              |
-| :Gblame                 | git blame             |
-| :Glog                   | git log               |
+| key            | action                |
+|:---------------|:----------------------|
+| :Gstatus       | git status            |
+| C-n(Gstatus中) | 次のファイルに移動    |
+| C-p(Gstatus中) | 前のファイルに移動    |
+| D(Gstatus中)   | git diff              |
+| -(Gstatus中)   | 対象をadd、reset      |
+| :Gread         | git checkout filename |
+| :Gdiff         | git diff              |
+| :Gblame        | git blame             |
+| :Glog          | git log               |
+| :Gwrite        | git add               |
+| :Gcommit       | git commit            |
+| :Gpush         | git push              |
+| :Gpull         | git pull              |
+| :Gfetch        | git fetch             |
+| :Gmerge        | git merge             |
+| :Gcd           | gitルートにcd         |
+| :Glcd          | gitルートにlcd        |
 
 ## tcomment_vim
 | key | action                   |
