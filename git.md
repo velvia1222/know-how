@@ -4,6 +4,9 @@
 | git branch ブランチ名               | ブランチを追加。切り替えは行わない                            |
 | git checkout -b ブランチ名          | ブランチを追加して切り替え                                    |
 | git commit -a                       | 変更されたファイルを自動add＆コミット                         |
+| git log                             | コミット履歴を表示                                            |
+| git log --pretty=oneline            | コミット履歴を1行ごとに表示                                   |
+| git log --oneline                   | コミット履歴を短縮IDで1行ごとに表示                           |
 | git log -p ファイルパス             | 特定のファイルの変更履歴を見る                                |
 | git rm                              | gitの管理対象からファイルを削除し、ファイル自体も削除         |
 | git rm -r                           | gitの管理対象からディレクトリを削除し、ディレクトリ自体も削除 |
