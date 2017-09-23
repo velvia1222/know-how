@@ -8,6 +8,7 @@
 | git log --pretty=oneline            | コミット履歴を1行ごとに表示                                   |
 | git log --oneline                   | コミット履歴を短縮IDで1行ごとに表示                           |
 | git log -p ファイルパス             | 特定のファイルの変更履歴を見る                                |
+| git show コミットID                 | コミットの詳細を見る                                          |
 | git commit --amend                  | 直前のコミットコメントを修正する                              |
 | git rebase -i コミットID            | 指定したコミットIDのコミットを修正                            |
 | git rebase -i HEAD~n                | HEADからHEAD~nまでのコミットを修正                            |
