@@ -23,7 +23,7 @@
 | docker container top     | コンテナ内で実行しているプロセスを表示   |
 | docker container port    | コンテナが使用しているポートを表示       |
 
-#docker-compose
+# docker-compose
 | command                | action                                 |
 |:-----------------------|:---------------------------------------|
 | docker-compose build   | docker-compose.ymlからイメージを作成   |
