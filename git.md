@@ -21,6 +21,7 @@
 | git rm --cached                     | gitの管理対象からのみ削除する                                 |
 | git checkout ファイルパス           | ローカルの変更をファイル単位で取り消す                        |
 | git checkout .                      | ローカルの変更を取り消す。新規追加は削除されない              |
+| git clean -df                       | Untrackedファイルとディレクトリを削除                         |
 | git reset --hard origin/master      | ローカルブランチをリモートブランチで上書き                    |
 | git branch -d ブランチ名            | ローカルブランチを削除する                                    |
 | git push --delete origin ブランチ名 | リモートブランチを削除する                                    |
