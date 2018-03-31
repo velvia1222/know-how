@@ -25,3 +25,4 @@
 | git reset --hard origin/master      | ローカルブランチをリモートブランチで上書き                    |
 | git branch -d ブランチ名            | ローカルブランチを削除する                                    |
 | git push --delete origin ブランチ名 | リモートブランチを削除する                                    |
+| git fetch --prune                   | リモートで削除されているブランチを自動削除                    |
