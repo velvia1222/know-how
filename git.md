@@ -11,6 +11,12 @@
 | git log -p ファイルパス             | 特定のファイルの変更履歴を見る                                |
 | git show コミットID                 | コミットの詳細を見る                                          |
 | git commit --amend                  | 直前のコミットコメントを修正する                              |
+| git stash                           | 変更を退避する                                                | <`0`>
+| git stash list -p                   | stashの一覧を表示                                             |
+| git stash show スタッシュID         | 変更したファイル一覧を表示                                    |
+| git stash apply スタッシュID        | スタッシュを取り出す                                          |
+| git stash drop スタッシュID         | スタッシュを削除                                              |
+| git stash pop スタッシュID          | スタッシュを取り出して削除                                    |
 | git rebase -i コミットID            | 指定したコミットIDのコミットを修正                            |
 | git rebase -i HEAD~n                | HEADからHEAD~nまでのコミットを修正                            |
 | (続き)pickをeditに変更して保存      | editにしたコミットを過去から順に編集できる                    |
