@@ -4,6 +4,7 @@
 | git branch ブランチ名               | ブランチを追加                                                |
 | git checkout -b ブランチ名          | ブランチを追加して切り替え                                    |
 | git add -A                          | 追加、変更、削除されたファイルをadd                           |
+| git reset                           | addを取り消し                                                 |
 | git commit -a                       | 変更されたファイルを自動add＆コミット                         |
 | git log                             | コミット履歴を表示                                            |
 | git log --pretty=oneline            | コミット履歴を1行ごとに表示                                   |

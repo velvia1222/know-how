@@ -363,6 +363,17 @@
 | :Tabularize /,\zs/l0c1 | カンマの次をもとに整列する。1列目左揃え、 |
 |                        | (続き)0空白、カンマの次を中央揃え、1空白  |
 
+## NERDTree
+| key                   | action                                             |
+|:----------------------|:---------------------------------------------------|
+| O                     | ディレクトリを再帰的に展開                         |
+| X                     | ディレクトリを再帰的に閉じる                       |
+| C                     | カレントディレクトリをルートディレクトリに設定     |
+| u                     | 上のディレクトリに移動                             |
+| R                     | ルートディレクトリ以下を更新                       |
+| cd                    | ワーキングディレクトリをカレントディレクトリに設定 |
+| m、a、ディレクトリ名/ | ディレクトリを作成                                 |
+
 ## denite
 | key | action               |
 |:----|:---------------------|
@@ -395,6 +406,17 @@
 | key | action                   |
 |:----|:-------------------------|
 | gcc | コメントアウトのオンオフ |
+
+## LanguageClient-neovim
+| key | action                                     |
+|:----|:-------------------------------------------|
+| K   | LanguageClient_textDocument_hover          |
+| C-] | LanguageClient_textDocument_definition     |
+| \R  | LanguageClient_textDocument_rename         |
+| \la | LanguageClient_textDocument_codeAction     |
+| \ls | LanguageClient_textDocument_documentSymbol |
+| \lr | LanguageClient_textDocument_references     |
+| \lc | LanguageClient_contextMenu                 |
 
 ## vim-markdown
 | key  | action           |
