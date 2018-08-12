@@ -5,6 +5,7 @@
 | git checkout -b ブランチ名          | ブランチを追加して切り替え                                    |
 | git add -A                          | 追加、変更、削除されたファイルをadd                           |
 | git reset                           | addを取り消し                                                 |
+| git diff --staged                   | ステージと最新コミットの差分を表示                            |
 | git commit -a                       | 変更されたファイルを自動add＆コミット                         |
 | git log                             | コミット履歴を表示                                            |
 | git log --pretty=oneline            | コミット履歴を1行ごとに表示                                   |
@@ -12,7 +13,7 @@
 | git log -p ファイルパス             | 特定のファイルの変更履歴を見る                                |
 | git show コミットID                 | コミットの詳細を見る                                          |
 | git commit --amend                  | 直前のコミットコメントを修正する                              |
-| git stash                           | 変更を退避する                                                | <`0`>
+| git stash                           | 変更を退避する                                                |
 | git stash list -p                   | stashの一覧を表示                                             |
 | git stash show スタッシュID         | 変更したファイル一覧を表示                                    |
 | git stash apply スタッシュID        | スタッシュを取り出す                                          |
