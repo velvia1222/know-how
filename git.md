@@ -15,6 +15,7 @@
 | git show コミットID                     | コミットの詳細を見る                                          |
 | git commit --amend                      | 直前のコミットコメントを修正する                              |
 | git stash                               | 変更を退避する                                                |
+| git stash save -u                       | untrackedも含めて変更を退避する                               |
 | git stash list -p                       | stashの一覧を表示                                             |
 | git stash show スタッシュID             | 変更したファイル一覧を表示                                    |
 | git stash apply スタッシュID            | スタッシュを取り出す                                          |
